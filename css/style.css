@@ -8,4 +8,140 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   margin: 0;
+
+}
+
+.darkblue {
+  position: absolute;
+  background: linear-gradient(#1c5380, #06365f);
+  height: 40%;
+  width:100%;
+  z-index: -1;
+  top: 0;
+}
+
+
+aside {
+   position: absolute;
+   min-height:65%;
+   width:60%;
+   left: 25%;
+   top: 10%;
+}
+
+.phones {
+  position: absolute;
+  max-width: 250px;
+  height: auto;
+  vertical-align: bottom;
+  bottom:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+main {
+  position: absolute;
+  left: 300px;
+  bottom:0;
+  max-width: 400px;
+  width: auto;
+  text-align:left;
+}
+
+.brand {
+  float:left;
+  max-height: 60px;
+  height:auto;
+  width: 400px;
+}
+
+.logo {
+  max-height: 60px;
+  height: auto;
+  width: auto;
+}
+
+button {
+  margin-top: 10px;
+  float: right;
+  padding: 10px;
+  background:#1c5380;
+  color: white;
+  font-weight: bold;
+  font-size:15px;
+  border: 1px #06365f solid;
+  border-radius: 8px;
+}
+
+button img {
+  position: relative;
+  top:5px;
+}
+
+.content {
+  clear: both;
+  background: url("../img/frame.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+p {
+  padding: 0 20px ;
+  width: 90%;
+}
+
+h1 {
+  padding: 10px 20px;
+}
+
+.download {
+  padding: 0 20px;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 10%;
+  width: 100%;
+  font-size:12px;
+  font-weight:bold;
+}
+
+ul {
+  list-style: none;
+  display: inline;
+}
+
+li {
+  display: inline;
+  padding: 0 10px ;
+  text-align: center;
+  color: #1c5380;
+
+}
+
+li:last-child {
+  color: rgba(0,0,0,0.4);
+}
+
+@keyframes xfade {
+  17% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  92% {
+    opacity: 0;
+  }
+}
+
+.top {
+  z-index: 1;
+  animation: xfade 10s 1s infinite;
+}
+
+button:hover {
+  background: rgba(255,255,255,0.5);
 }
