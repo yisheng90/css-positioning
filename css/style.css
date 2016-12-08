@@ -14,7 +14,7 @@ body {
 .darkblue {
   position: absolute;
   background: linear-gradient(#1c5380, #06365f);
-  height: 40%;
+  height: 35%;
   width:100%;
   z-index: -1;
   top: 0;
@@ -64,8 +64,8 @@ main {
 button {
   margin-top: 10px;
   float: right;
-  padding: 10px;
-  background:#1c5380;
+  padding: 5px;
+  background:linear-gradient(#1c5380, #06365f);
   color: white;
   font-weight: bold;
   font-size:15px;
@@ -80,6 +80,7 @@ button img {
 
 .content {
   clear: both;
+  margin-top: 10%;
   background: url("../img/frame.png");
   background-size: 100%;
   background-repeat: no-repeat;
@@ -93,6 +94,10 @@ p {
 
 h1 {
   padding: 10px 20px;
+  color:#1c5380;
+  font-size: 20px;
+  width: 300px;
+  padding-top: 20px;
 }
 
 .download {
