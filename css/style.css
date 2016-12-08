@@ -21,7 +21,7 @@ body {
 }
 
 
-aside {
+.container {
    position: absolute;
    min-height:65%;
    width:60%;
@@ -102,7 +102,8 @@ h1 {
 footer {
   position: absolute;
   text-align: center;
-  bottom: 10%;
+  left:0;
+  bottom: 40px;
   width: 100%;
   font-size:12px;
   font-weight:bold;
